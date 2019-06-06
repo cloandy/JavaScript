@@ -1,0 +1,1 @@
+alert("我是外部JS语法：Hello JavaScript!!");

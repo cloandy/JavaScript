@@ -1,0 +1,41 @@
+<html>
+	<body>
+	<!--
+		使用JS外部文件
+		使用外部文件推荐使用
+		script引用了外部文件，则不需在内部写script，写了也不会执行
+	-->
+	<script src = "test1.js">
+	</script>
+	<!--
+		使用JS内部文件
+	-->
+	<script>
+	alert("我是内部JS语法：Hello JavaScript!!");
+	</script>
+	
+	<!--
+		在网页主体显示一个button，名称为Please Click button触发事件为弹出一个对话框
+		单双引号的问题：外部用双引号，内部用单引号，避免错误
+	-->
+	<button onclick = "alert('Hello JavaScript!!你点我干什么？？');">Please Click
+	
+	</button>
+	
+	<!--
+		单引号位置和双引号位置可以互换
+		这个是建立一个超链接
+		这个格式不大一样
+	-->
+	
+	<a href = 'javascript:alert("Hello JavaScript!!你又点我");'>Please Click Also</a>
+	<!------------------------这种格式不推荐------------------------------------------>
+	</body>
+</html>
+
+<!--
+	JS的位置：
+		1. 可以直接在标签中写入
+		2. 直接在本文件中写script
+		3. 可以再外部文件中写，在文件中调用
+-->
